@@ -48,34 +48,16 @@ def change():
     print ('[+] Your IP has been Changed to : '+str(ma_ip()))
 
 print('''\033[1;32;40m \n
-                _         
-    ,..-,
-         ,;;f^^"""-._
-        ;;'          `-.
-       ;/               `.
-       ||  _______________\_______________________
-       ||  |HHHHHHHHHHPo"~~\"o?HHHHHHHHHHHHHHHHHHH|
-       ||  |HHHHHHHHHP-._   \,'?HHHHHHHHHHHHHHHHHH|
-        |  |HP;""?HH|    """ |_.|HHP^^HHHHHHHHHHHH|
-        |  |HHHb. ?H|___..--"|  |HP ,dHHHPo'|HHHHH|
-        `| |HHHHHb.?Hb    .--J-dHP,dHHPo'_.rdHHHHH|
-         \ |HHHi.`;;.H`-./__/-'H_,--'/;rdHHHHHHHHH|
-           |HHHboo.\ `|"\"/"\" '/\ .'dHHHHHHHHHHHH|
-           |HHHHHHb`-|.  \|  \ / \/ dHHHHHHHHHHHHH|
-           |HHHHHHHHb| \ |\   |\ |`|HHHHHHHHHHHHHH|
-           |HHHHHHHHHb  \| \  | \| |HHHHHHHHHHHHHH|
-           |HHHHHHHHHHb |\  \|  |\|HHHHHHHHHHHHHHH|
-           |HHHHHHHHHHHb| \  |  / dHHHHHHHHHHHHHHH|
-           |HHHHHHHHHHHHb  \/ \/ .fHHHHHHHHHHHHHHH|
-           |HHHHHHHHHHHHH| /\ /\ |HHHHHHHHHHHHHHHH|
-           |""""""""""""""""""""""""""""""""""""""| \n
-           
-      |##########| |########| |########| 
-          |##|     |#|    |#| |#|    |#| 
-          |##|     |#|    |#| |#| /###/
-          |##|     |#|    |#| |#| \#\
-          |##|     |########| |#|  \#\
-
+                        
+ _               _     _         _         _     _ 
+| |    ___   ___| |__ (_)_ __   | | _____ ( )___(_)
+| |   / _ \ / __| '_ \| | '_ \  | |/ / _ \|/|_  / |
+| |__| (_) | (__| | | | | | | | |   < (_) |  / /| |
+|_____\___/ \___|_| |_|_|_| |_| |_|\_\___/  /___|_|
+                                                   
+ Tempiltin                                         
+                                                   
+            https://tempiltin.uz/                   
 Dastur o'quv mashg'ulotlari maqsadida ishlab chiqilgan! \n
         ILTIMOS YOMON MAQSADDA FOYDALANMANG ! \n
       
@@ -83,14 +65,14 @@ Dastur o'quv mashg'ulotlari maqsadida ishlab chiqilgan! \n
 ''')
 print("\033[1;40;31m https://www.tempiltin.uz /\n")
 
-os.system("service tor start")
+os.system("Lochin ko'zi dasturi ishga tushdi!")
 
 
 
 
 time.sleep(3)
 print("\033[1;32;40m change your  SOCKES to 127.0.0.1:9050 \n")
-os.system("service tor start")
+os.system("Lochin ko'zi dasturini boshlash")
 x = input("[+] Sec ichida IP o'zgartirish vaqti [type=60] >> ")
 lin = input("[+] cheksiz IP oʻzgartirish turiga [type=1000] IP-ni necha marta oʻzgartirmoqchisiz [0] >>")
 if int(lin) ==int(0):
@@ -101,7 +83,7 @@ if int(lin) ==int(0):
 			change()
 		except KeyboardInterrupt:
 
-		 	print('\nauto tor is closed ')
+		 	print("\nLochin ko'zi is closed ")
 		 	quit()
 
 else:
