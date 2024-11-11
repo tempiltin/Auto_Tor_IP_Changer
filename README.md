@@ -46,3 +46,10 @@ Ushbu vositalarni qanday o'rnatish kerak:
 
 ============
 https://tempiltin.uz/
+
+
+agar sizda tor ishga tushmagan bo'lsa
+
+sudo systemctl start tor
+sudo systemctl enable tor
+sudo systemctl status tor
