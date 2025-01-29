@@ -23,8 +23,8 @@ Ushbu vositalarni qanday o'rnatish kerak:
 * : talablar:
 
    sudo apt-get install tor
-   pip3 o'rnatish so'rovlari[paypoq]
-   yoki shunchaki autoTor-ni ishga tushiring, u hamma narsani o'rnatadi
+
+   yoki shunchaki Lochin-ni ishga tushiring, u hamma narsani o'rnatadi
 
 
 
@@ -41,6 +41,15 @@ Ushbu vositalarni qanday o'rnatish kerak:
 *[0 dan cheksiz IP o'zgarishiga]
 
 6: brauzeringizga o'ting / kompyuter proksi-serverini 127.0.0.1:9050 ga o'zgartiring
+    
+=========================================================================
+    1.Borowser setting ga kirinng
+    2.Network setting ga kiring
+    3. 127.0.0.1 va portga 9050 ni kiriting va saqlang.
+
+
+
+    Tabriklaymiz sizning dasturingiz ishga tushdi.
 
 7: BOOOOOMM
 
